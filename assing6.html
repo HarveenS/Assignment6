@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Forms</title>
+	<link type="text/css" rel="stylesheet" href="normalize.css">
+	<link type="text/css" rel="stylesheet" href="assing6.css">
+</head>
+
+<body class="home">
+	<main>
+		<header>
+			<div>
+
+				<h2>Send us a message</h2>
+				<h3>We usually respond in 1 business day.</h3>
+
+			</div>
+		</header>
+
+		<div class="main-head">
+			<form action="index.html" method="get" enctype="multipart/form-data">
+				<fieldset>
+					<legend><strong>General Info</strong></legend>
+					<label for="firstname">Name*</label>
+					<input type="text" name="firstname" id="firstname" placeholder="John Smith">
+					<hr>
+					<label for="email">Email*</label>
+					<input type="email" name="email" id="email" placeholder="name@mydomain.com">
+					<hr>
+					<label for="company">Company*</label>
+					<input type="text" name="company" id="company" placeholder="Apple">
+					<hr>
+					<label for="hearaboutus">How did you hear about us?</label>
+					<input type="text" name="hearaboutus" id="info" placeholder="Event">
+					<hr>
+					<br>
+					<legend><strong>What would you like to discuss?</strong></legend>
+					<input id="hiring" type="radio" name="hiring" value="hiring">
+					<label for="hiring">Hiring Philosophie</label>
+					<input id="joining" type="radio" name="joining" value="joining">
+					<label for="joining">Joining the Philosophie team</label>
+					<input id="other" type="radio" name="other" value="other">
+					<label for="other">Other</label>
+
+					<hr>
+					<br>
+
+					<legend><strong>Which of our offerings interest you?</strong></legend>
+					<input type="checkbox" name="interests" value="leanBranding">
+					<label for="leanBranding">Lean Branding</label>
+					<input type="checkbox" name="interests" value="4week">
+					<label for="4week">4 Week MVP</label>
+					<input type="checkbox" name="interests" value="productTeam">
+					<label for="productTeam">Product Team</label>
+					<input type="checkbox" name="interests" value="designSpirit">
+					<label for="designSpirit">Design Spirit</label>
+					<input type="checkbox" name="interests" value="other">
+					<label for="other">Other</label>
+
+					<hr>
+
+					<div class="textbox1">
+
+						<p><strong>What is the problem you are trying to solve?</strong></p>
+						<textarea rows="4" cols="50" autofocus>
+
+						</textarea>
+					</div>
+					<div class="textbox2">
+
+						<p><strong>What do you hope or engagement will accomplish?</strong></p>
+						<textarea rows="4" cols="50" autofocus>
+
+						</textarea>
+					</div>
+
+					<hr>
+
+					<legend><strong>What is your budget range?</strong></legend>
+					<input id="less40" type="radio" name="budget1" value="less40">
+					<label for="less40">less than $40k</label>
+					<input id="40-100" type="radio" name="budget2" value="40-100">
+					<label for="40-100">$40k-$100k</label>
+					<input id="100-250" type="radio" name="budget3" value="100-250">
+					<label for="100-250">$100k-$250k</label>
+					<input id="250-500" type="radio" name="budget4" value="250-500">
+					<label for="250-500">$250k-$500k</label>
+					<input id="500-over" type="radio" name="budget5" value="500-over">
+					<label for="500-over">$500k +</label>
+
+
+
+					<div class="radio check2">
+
+					</div>
+
+					<br>
+
+					<input type="submit" value="Submit">
+				</fieldset>
+			</form>
+		</div>
+
+	</main>
+</body>
+
+</html>

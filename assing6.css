@@ -1,0 +1,79 @@
+/* base */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	background: #ECF0F1;
+	font-family: sans-serif;
+    font-weight: normal;
+}
+
+header {
+    padding: 0;
+	text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1em;
+    text-align: center;
+}
+
+label, 
+input {
+	display: block;
+}
+
+input {
+	margin-bottom: 1.5em;
+	margin-top: 1em;
+}
+input[type="checkbox"] {
+	display: inline;
+}
+input[type="checkbox"] + label {
+	display: inline-block;
+}
+
+
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-user-select: text;
+    flex-direction: column;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px;
+    padding: 2px;
+	display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 11px BlinkMacSystemFont;
+}
+
+.submit button {
+	align: center;
+	border: 2em solid;
+}
+
+ 
+@media (min-width: 1200px) {
+  form > div > label,
+	legend {
+  	text-align: right;
+  }
+}
